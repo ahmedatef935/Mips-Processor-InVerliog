@@ -1,0 +1,32 @@
+00000000000000000000000000000000//$0	$zero	Hard-wired to 0
+00000000000000000000000000000101//$1	$at	Reserved for pseudo-instructions
+00000000000000000000000000000010//$2	$v0	Return values from functions
+00000000000000000000000000000011//$3	$v1	Return values from functions
+00000000000000000000000000000011//$4	$a0	Arguments to functions - not preserved by subprograms
+00000000000000000000000000000100//$5	$a1	Arguments to functions - not preserved by subprograms
+00000000000000000000000000000010//$6	$a2	Arguments to functions - not preserved by subprograms
+00000000000000000000000000000001//$7	$a3	Arguments to functions - not preserved by subprograms
+00000000000000000000000000001000//$8	$t0	Temporary data, not preserved by subprograms
+00000000000000000000000000001001//$9	$t1	Temporary data, not preserved by subprograms
+00000000000000000000000000001010//$10	$t2	Temporary data, not preserved by subprograms
+00000000000000000000000000000001//$11	$t3	Temporary data, not preserved by subprograms
+00000000000000000000000000000001//$12	$t4	Temporary data, not preserved by subprograms
+00000000000000000000000000000001//$13	$t5	Temporary data, not preserved by subprograms
+00000000000000000000000000000000//$14	$t6	Temporary data, not preserved by subprograms
+00000000000000000000000000000001//$15	$t7	Temporary data, not preserved by subprograms
+00000000000000000000000000000000//$16	$s0	Saved registers, preserved by subprograms
+00000000000000000000000000000011//$17	$s1	Saved registers, preserved by subprograms
+00000000000000000000000000000000//$18	$s2	Saved registers, preserved by subprograms
+00000000000000000000000000000001//$19	$s3	Saved registers, preserved by subprograms
+00000000000000000000000000000000//$20	$s4	Saved registers, preserved by subprograms
+00000000000000000000000000000001//$21	$s5	Saved registers, preserved by subprograms
+00000000000000000000000000000110//$22	$s6	Saved registers, preserved by subprograms
+00000000000000000000000000000001//$23	$s7	Saved registers, preserved by subprograms
+00000000000000000000000000000000//$24	$t8	More temporary registers, not preserved by subprograms
+00000000000000000000000000000001//$25	$t9	More temporary registers, not preserved by subprograms
+00000000000000000000000000000000//$26	$k0	Reserved for kernel. Do not use.
+00000000000000000000000000000001//$27	$k1	Reserved for kernel. Do not use.
+00000000000000000000000000000000//$28	$gp	Global Area Pointer (base of global data segment)
+00000000000000000000000000000001//$29	$sp	Stack Pointer
+00000000000000000000000000000000//$30	$fp	Frame Pointer
+00000000000000000000000000000001//$31	$ra	Return Address
